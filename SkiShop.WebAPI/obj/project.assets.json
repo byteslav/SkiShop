@@ -114,6 +114,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SkiShop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "SkiShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SkiShop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SkiShop.Application.dll": {}
+        }
+      },
+      "SkiShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SkiShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SkiShop.Domain.dll": {}
+        }
       }
     }
   },
@@ -548,12 +571,23 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "SkiShop.Application/1.0.0": {
+      "type": "project",
+      "path": "../SkiShop.Application/SkiShop.Application.csproj",
+      "msbuildProject": "../SkiShop.Application/SkiShop.Application.csproj"
+    },
+    "SkiShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SkiShop.Domain/SkiShop.Domain.csproj",
+      "msbuildProject": "../SkiShop.Domain/SkiShop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4",
+      "SkiShop.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -583,7 +617,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Mineminemine\\C# Projects\\Course Project\\SkiShop\\SkiShop.Application\\SkiShop.Application.csproj": {
+              "projectPath": "D:\\Mineminemine\\C# Projects\\Course Project\\SkiShop\\SkiShop.Application\\SkiShop.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
