@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SkiShop.WebAPI.props" />
-</Project>
