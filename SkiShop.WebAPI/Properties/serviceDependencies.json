@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "postgresql1": {
+      "type": "postgresql",
+      "connectionId": "Server=localhost;Username=admin;Database=db_ski_shop",
+      "dynamicId": null
+    }
+  }
+}
