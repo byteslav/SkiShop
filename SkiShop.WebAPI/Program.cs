@@ -16,7 +16,7 @@ builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-var connectionString = "Server=localhost;Port=5432;Userid=admin;Password=root;Database=test"; // TODO: move to appsettings
+var connectionString = "Server=localhost; Port=5432;User Id=admin; Password=root; Database=db_ski_shop;"; // TODO: move to appsettings
 builder.Services.AddDbContext<ShopContext>(options =>
                 options.UseNpgsql(connectionString));
 
