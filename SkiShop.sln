@@ -5,11 +5,9 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiShop.WebAPI", "SkiShop.WebAPI\SkiShop.WebAPI.csproj", "{3A9BF846-6D1D-499C-88CD-CE25A5CF277D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiShop.Domain", "SkiShop.Domain\SkiShop.Domain.csproj", "{6C7DA622-FB0C-4857-BDF2-2E60D0E210B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiShop.Domain", "SkiShop.Domain\SkiShop.Domain.csproj", "{6C7DA622-FB0C-4857-BDF2-2E60D0E210B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiShop.Application", "SkiShop.Application\SkiShop.Application.csproj", "{8415DB15-2C8E-46FA-903E-167BC2588F54}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiShop.Infrastructure", "SkiShop.Infrastructure\SkiShop.Infrastructure.csproj", "{705D3931-89A8-431F-8CE7-625729EF2097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiShop.Application", "SkiShop.Application\SkiShop.Application.csproj", "{8415DB15-2C8E-46FA-903E-167BC2588F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{8415DB15-2C8E-46FA-903E-167BC2588F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8415DB15-2C8E-46FA-903E-167BC2588F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8415DB15-2C8E-46FA-903E-167BC2588F54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{705D3931-89A8-431F-8CE7-625729EF2097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{705D3931-89A8-431F-8CE7-625729EF2097}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{705D3931-89A8-431F-8CE7-625729EF2097}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{705D3931-89A8-431F-8CE7-625729EF2097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

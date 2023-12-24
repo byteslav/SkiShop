@@ -2,7 +2,7 @@
 using SkiShop.Domain;
 using SkiShop.Domain.Entities.Products;
 
-namespace SkiShop.Application.Commands
+namespace SkiShop.Application.Handlers.Commands
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
     {
@@ -17,7 +17,7 @@ namespace SkiShop.Application.Commands
 
         public async Task Handle(CreateProductCommand command, CancellationToken cancellationToken)
         {
-            var product = new Product(1, command.Name, command.Description, command.Price);
+            var product = new Product(command.Name, command.Description, command.Price);
 
             _productRepository.Add(product);
 

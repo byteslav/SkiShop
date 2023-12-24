@@ -2,9 +2,8 @@
 {
     public class Product : BaseEntity
     {
-        public Product(int id, string name, string description, decimal price)
+        public Product(string name, string description, decimal price)
         {
-            Id = id;
             Name = name;
             Description = description;
             Price = price;

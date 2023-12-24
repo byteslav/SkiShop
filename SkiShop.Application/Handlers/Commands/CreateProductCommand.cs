@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace SkiShop.Application.Commands
+namespace SkiShop.Application.Handlers.Commands
 {
     public sealed record CreateProductCommand(
         string Name,

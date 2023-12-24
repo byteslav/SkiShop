@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SkiShop.Domain.Entities.Products;
 
-namespace SkiShop.Application
+namespace SkiShop.Application.Data
 {
     public class ShopContext : DbContext
     {

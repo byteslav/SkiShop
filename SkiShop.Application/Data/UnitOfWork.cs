@@ -1,13 +1,6 @@
 ﻿using SkiShop.Domain;
-using SkiShop.Domain.Entities;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SkiShop.Application
+namespace SkiShop.Application.Data
 {
     public class UnitOfWork : IUnitOfWork
     {
