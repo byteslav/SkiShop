@@ -7,9 +7,11 @@ namespace SkiShop.Application.Data
     {
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
-
+            
         }
 
         public DbSet<Product> Products => Set<Product>();
+        public DbSet<ProductBrand> ProductBrands => Set<ProductBrand>();
+        public DbSet<ProductType> ProductTypes => Set<ProductType>();
     }
 }
